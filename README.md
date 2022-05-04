@@ -14,13 +14,16 @@ Tracking multiple objects in a video using OpenCV with inputs from JSON file
 ### Executing program
 
 ## PYTHON
-
-## DOCKER
-
-* How to run the program
-* Step-by-step bullets
 ```
 python multiObjectTracking.py --json development_assets/initial_conditions.json --video development_assets/input.mkv --tracker MEDIANFLOW
+```
+
+## DOCKER
+```
+sudo docker build -t docker-epicio -f Dockerfile .
+```
+```
+sudo docker run -v $PWD/app:/app --name testepic10  docker-epicio:latest
 ```
 
 
