@@ -1,7 +1,7 @@
 # MultiObjectTracking with OpenCV
 
-Project: Multiple Object Tracking Using OpenCV from JSON file
-Date created: May 3, 2022
+Project: Multiple Object Tracking Using OpenCV from JSON file <br />
+Date created: May 3, 2022 <br />
 
 ## Description
 
@@ -29,7 +29,7 @@ sudo docker run -v $PWD/app:/app --name testepic10  docker-epicio:latest
 
 ## Authors
 
-Jason Paul Cahuana Nina
+Jason Paul Cahuana Nina <br />
 pcahuana.27@gmail.com
 
 ## Version History
